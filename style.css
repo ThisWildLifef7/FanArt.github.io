@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    height: 18rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 5px 10px -4px black;
+    padding: 0 1rem 0 1rem;
+    background-color: black
+}
+
+.card-head {
+    height: 12rem;
+}
+
+.card {
+    height: 24rem;
+}
+
+.second, .third {
+    width: 21rem;
+    height: 18rem;
+}
+
+.head-op {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 120rem;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.container-descrip {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-between;
+    height: 18rem;
+    font-size: 14px;
+}
+
+.one {
+    background-color: #DF2E38;
+}
+.two {
+    background-color: #5D9C59;
+}
+.three {
+    background-color: orange;
+}
+.four {
+    background-color: darkgoldenrod;
+}
+.five {
+    background-color: pink;
+}
+.six {
+    background-color: #B2A4FF;
+}
+
+button {
+    display: flex;
+    width: 13rem;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    border-radius: 2px;
+    color: #97DEFF;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-size: 18px;
+}

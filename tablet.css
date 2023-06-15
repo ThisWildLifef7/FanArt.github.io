@@ -1,0 +1,11 @@
+.header {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card-head {
+    height: 10rem;
+}
+
+a {
+    font-size: 23px;
+}

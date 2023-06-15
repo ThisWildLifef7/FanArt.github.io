@@ -1,0 +1,9 @@
+.one, .two, .five, .six {
+    width: 50%;
+}
+.three, .four {
+    width: 50%;
+}
+.card-head {
+    height: 12rem;
+}

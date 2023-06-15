@@ -1,0 +1,29 @@
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    width: 100%;
+}
+
+.card-head {
+    height: 14rem;
+}
+
+.container-descrip {
+    font-size: 23px;
+}
+
+.card {
+    height: 28rem;
+}
+
+.second, .third {
+    width: 30rem;
+    height: 25rem;
+}
+
+a{
+    font-size: 25px;
+}
